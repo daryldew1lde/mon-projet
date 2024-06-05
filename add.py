@@ -6,7 +6,7 @@ def main():
 def add(*args):
     sum = 0
     for num  in args:
-        sum += num
+        sum -= num
     return sum
 
 if __name__ == '__main__':
